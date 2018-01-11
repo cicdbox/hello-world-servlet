@@ -88,7 +88,7 @@
 	        <url>${REPOSITORY_URL}</url>
 	    </repository>
  <snapshotRepository>
-        <id>snapshots</id>
+        <id>nexus-release-repository</id>
         <name>Snapshots</name>
         <url>${REPOSITORY_URL}</url>
     </snapshotRepository>
