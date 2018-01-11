@@ -87,5 +87,10 @@
 	        <name>release-repository</name>
 	        <url>${REPOSITORY_URL}</url>
 	    </repository>
+ <snapshotRepository>
+        <id>snapshots</id>
+        <name>Snapshots</name>
+        <url>http://nexus:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
 	</distributionManagement>
 </project>
