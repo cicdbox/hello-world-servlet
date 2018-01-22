@@ -1,4 +1,4 @@
-FROM tomcat
+FROM java:8
 
 VOLUME /tmp
 
