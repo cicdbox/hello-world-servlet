@@ -2,7 +2,7 @@ FROM tomcat
 
 VOLUME /tmp
 
-ADD target/hello-world-servlet*.war app.war
+ADD target/conference-app*.war app.war
 
 RUN bash -c 'touch /app.war'
 
